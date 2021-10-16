@@ -1,0 +1,7 @@
+<div class="blog-post card project">
+    <div class="project__information">
+       <h2 class="project__title">{{ project.name }}</h2>
+       <p class="project__description">{{ project.content | remove: '<p>' | remove: '</p>' }}</p>
+    </div>
+    <a href="{{ project.github_url}}" class="btn btn-dark btn-lg">Détails</a>
+</div>

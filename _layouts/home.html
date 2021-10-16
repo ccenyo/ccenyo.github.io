@@ -11,19 +11,17 @@ layout: full-width
 </script>
     <div class="jumbotron" style="text-align: center;">
       <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/profile.png" />
-      <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
+      <p class="jumbotron-heading">Bonjour, je m'appelle {{site.author}} !</p>
       <p class="lead" id="typewriteText"></p>
-         {%- include github_star_button.html -%}
-         {%- include github_fork_button.html -%}
     </div>
     <div class="col-lg-8 offset-md-2">
       <section id="recent-articles">
         <div id="recent-articles-header">
           <div id="recent-articles-title">
-            <h1 class="card-title">Recent Articles</h1>
+            <h1 class="card-title">Articles récents</h1>
           </div>
           <div id="recent-articles-show-all">
-            <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
+            <a class="btn btn-lg btn-dark" href="/blog"> Voir tout </a>
           </div>
         </div>
         <br />
@@ -51,9 +49,7 @@ layout: full-width
                     <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
                   </div>
                   <div id="article-alert">
-                  {% for cat in post.category limit:1 %}
-                   <button class="btn btn-sm btn-dark">{{cat}}</button>
-                  {% endfor %}
+                    <button class="btn btn-sm btn-dark">Lire</button>
                   </div>
               </div>
             </a>

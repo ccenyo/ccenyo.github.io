@@ -1,23 +1,21 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Cenyo
+subtitle: Le blog de Cenyo
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Un site sur lequel tu trouveras tous les projets publiques que Cenyo Medewou a réalisé ou contribué à réaliser. 
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://ccenyo.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
+    - text: Acceuil
       url: /
-    - text: About
+    - text: Mon CV
       url: /about
-    - text: Blog
+    - text: Tutoriels
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
+    - text: Projets
+      url: /project
     - text: Contact
       url : /contact
 
@@ -25,35 +23,35 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author: Cenyo Medewou
+author_bio: J'adore coder, ceci est juste un petit blog pour montrer mes créations ainsi que les difficultés rencontrées en les réalisant.
+author_email: "medewou@gmail.com"
+author_location: France
+author_website_url: "https://ccenyo.github.io"
+typewrite-text: Si tu t'ais égaré sur ce site, sache que tu trouveras ici quelques projets que je développe. j'aispère que ça t'aideras. 
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
+            - company_name: Keyconsulting
               company_logo: google.png
               company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+              designation: Développeur fullstack java
+              description: Je travaille depuis 2017 sur plusieurs projet de deveoppement web abec Spring, hibernate, etc...
               visibility: true
-            - company_name: Microsoft
+            - company_name: Sopra Steria
               company_logo: microsoft.png
               company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+              designation: Développeur Java
+              description: J'ai travaillé en tant que stagiaire.
               visibility: true
 
 # Education
 author_education_details:
               - college_logo: mit.png
-                college_name: MIT
+                college_name: Polytech Grenoble
                 college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+                college_degree: Ingénieur Informatique
+                description: Ingénieur Informatique
                 visibility: true
 
 # Projects
@@ -70,16 +68,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: ccenyo
+github_username:  ccenyo
+#facebook_username: johndoe
+linkedin_username: cenyomedewou
+#behance_username: johndoe
+#instagram_username: johndoe
+#medium_username: johndoe
+#telegram_username: johndoe
+#dribbble_username: johndoe
+#flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -134,9 +132,9 @@ paginate_path: "/blog/page/:num/"
 collections:
   products:
     output: true
-  authors:
+  projects:
     output: true
-
+    
 defaults:
   -
     scope:
