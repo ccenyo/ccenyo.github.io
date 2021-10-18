@@ -16,8 +16,6 @@ urls:
       url: /blog
     - text: Projets
       url: /project
-    - text: Contact
-      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -81,18 +79,18 @@ linkedin_username: cenyomedewou
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
-# disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+#disqus_shortname: cenyo
+#hyvor_talk_website_id: 500
 
 # wakatime username (coding activity)
 wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: medewou@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 # olvy_organization: devlopr
@@ -134,7 +132,7 @@ collections:
     output: true
   projects:
     output: true
-    
+
 defaults:
   -
     scope:
