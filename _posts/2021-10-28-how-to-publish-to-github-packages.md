@@ -2,7 +2,7 @@
 layout: post
 title:  "Comment publier vos librairies sur github package registry ?"
 summary: "Dans ce mini tutoriel, je vous montre comment publier votre librairie open source sur github packages en quelques étapes"
-author: Cenyo Medewou
+author: ccenyo
 date: '2021-10-28 14:35:23 +0530'
 category: Tutoriel
 thumbnail: /assets/img/posts/package-registry.png
@@ -103,21 +103,21 @@ Dans votre ``server.xml``
 
 Suivez les étapes suivantes :
 
-![github-repo-page](/assets/img/posts/github-repo_page.png)
+![github-repo-page](https://ccenyo.github.io/assets/img/posts/github-repo_page.png)
 
 
 Créer une nouvelle version 
 
-![github-release-page](/assets/img/posts/drag_new_release.png)
+![github-release-page](https://ccenyo.github.io/assets/img/posts/drag_new_release.png)
 
 Vous verrez votre action s'exécuter automatiquement après la création de votre nouvelle version. N'oublier pas de mettre à jour votre numéro de version dans votre fichier ``pom.xml`` 
 
 
-![github-publish-page](/assets/img/posts/github_publish.png)
+![github-publish-page](https://ccenyo.github.io/assets/img/posts/github_publish.png)
 
 Vous trouverez votre librairie déployé sur le registry.
 
-![github-release](/assets/img/posts/github_release.png)
+![github-release](https://ccenyo.github.io/assets/img/posts/github_release.png)
 
 
 # Conclusion
