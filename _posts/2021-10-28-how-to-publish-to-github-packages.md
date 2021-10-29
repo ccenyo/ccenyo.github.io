@@ -103,21 +103,21 @@ Dans votre ``server.xml``
 
 Suivez les étapes suivantes :
 
-![github-repo-page](https://ccenyo.github.io/assets/img/posts/github-repo_page.png)
+![github-repo-page](/assets/img/posts/tuto1.png)
 
 
 Créer une nouvelle version 
 
-![github-release-page](https://ccenyo.github.io/assets/img/posts/drag_new_release.png)
+![github-release-page](https://ccenyo.github.io/assets/img/posts/tuto2.png)
 
 Vous verrez votre action s'exécuter automatiquement après la création de votre nouvelle version. N'oublier pas de mettre à jour votre numéro de version dans votre fichier ``pom.xml`` 
 
 
-![github-publish-page](https://ccenyo.github.io/assets/img/posts/github_publish.png)
+![github-publish-page](https://ccenyo.github.io/assets/img/posts/tuto3.png)
 
 Vous trouverez votre librairie déployé sur le registry.
 
-![github-release](https://ccenyo.github.io/assets/img/posts/github_release.png)
+![github-release](https://ccenyo.github.io/assets/img/posts/tuto4.png)
 
 
 # Conclusion
