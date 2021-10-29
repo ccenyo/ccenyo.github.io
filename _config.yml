@@ -20,7 +20,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: profile-cenyo.png
 author: Cenyo Medewou
 author_bio: J'adore coder, ceci est juste un petit blog pour montrer mes créations ainsi que les difficultés rencontrées en les réalisant.
 author_email: "medewou@gmail.com"

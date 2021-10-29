@@ -2,7 +2,7 @@
 layout: post
 title:  "Comment publier vos librairies sur github package registry ?"
 summary: "Dans ce mini tutoriel, je vous montre comment publier votre librairie open source sur github packages en quelques étapes"
-author: ccenyo
+author: cenyo
 date: '2021-10-28 14:35:23 +0530'
 category: Tutoriel
 thumbnail: /assets/img/posts/package-registry.png
