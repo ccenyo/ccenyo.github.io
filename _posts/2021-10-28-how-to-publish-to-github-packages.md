@@ -108,16 +108,16 @@ Suivez les étapes suivantes :
 
 Créer une nouvelle version 
 
-![github-release-page](https://ccenyo.github.io/assets/img/posts/tuto2.png)
+![github-release-page](/assets/img/posts/tuto2.png)
 
 Vous verrez votre action s'exécuter automatiquement après la création de votre nouvelle version. N'oublier pas de mettre à jour votre numéro de version dans votre fichier ``pom.xml`` 
 
 
-![github-publish-page](https://ccenyo.github.io/assets/img/posts/tuto3.png)
+![github-publish-page](/assets/img/posts/tuto3.png)
 
 Vous trouverez votre librairie déployé sur le registry.
 
-![github-release](https://ccenyo.github.io/assets/img/posts/tuto4.png)
+![github-release](/assets/img/posts/tuto4.png)
 
 
 # Conclusion
