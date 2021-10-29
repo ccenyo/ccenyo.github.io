@@ -1,0 +1,7 @@
+---
+identifier: Spring-Swagger-Angular
+name: Spring-Swagger-Angular
+github_url: https://github.com/ccenyo/Spring-Swagger-Angular
+---
+
+Je réalise ce projet pour m'aider à demmarrer rapidement un projet d'api spring avec documentation swagger, genération d'api en angular etc. j'ai essayé de doccumenter pour que ça soit compréhensible. j'espère que celà aidera d'autres personnes.
